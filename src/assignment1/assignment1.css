@@ -1,0 +1,51 @@
+.my-container{
+    width: 500px;
+    margin: auto;
+    padding:60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.fields-cont{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.fields-cont label{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 5px;
+    color:#444444
+}
+.fields-cont span{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.fields-cont input{
+    border:none;
+    border-radius: 10px;
+    padding:7px 10px;
+    background-color: rgb(225, 225, 236);
+}
+.fields-cont input:focus{
+    outline: none;
+}
+
+.button-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.my-button{
+    background-color: rgb(23, 170, 23);
+    color:white;
+    padding:8px 50px;
+    border-radius: 4px !important;
+    cursor: pointer;
+}
+.my-button:active{
+    background-color: white;
+    transition: all 0.3s ease-in;
+}
